@@ -110,7 +110,7 @@ const Intro = () => {
             className="border-2 px-4 py-2 rounded-md border-sky-600 hover:bg-sky-600 hover:text-white transition-all ease-in-out delay-150 flex items-center gap-2 uppercase tracking-wider text-sky-600 font-mono text-2xl"
             download
           >
-            Download CV 1
+            <span>CV 1</span>
             <span>
               <MdOutlineFileDownload className="text-xl"></MdOutlineFileDownload>
             </span>
@@ -122,7 +122,7 @@ const Intro = () => {
             className="border-2 px-4 py-2 rounded-md border-sky-600 hover:bg-sky-600 hover:text-white transition-all ease-in-out delay-150 flex items-center gap-2 uppercase tracking-wider text-sky-600 font-mono text-2xl"
             download
           >
-            Download CV 2
+            CV 2
             <span>
               <MdOutlineFileDownload className="text-xl"></MdOutlineFileDownload>
             </span>
