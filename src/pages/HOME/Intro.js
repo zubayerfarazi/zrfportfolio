@@ -36,7 +36,7 @@ const Intro = () => {
           <h1 className="text-4xl md:text-8xl text-sky-600 font-bold animate__animated animate__fadeInLeft">
             Zubayer Farazi
           </h1>
-          <p className="text-lg max-w-2xl md:text-2xl pt-10 tracking-wide font-playwrite animate__animated animate__fadeInLeft text-white">
+          <p className="text-lg max-w-2xl md:text-2xl pt-10 tracking-wide font-bona animate__animated animate__fadeInLeft text-white">
             Welcome to my portfolio! I'm a passionate computer science student
             with a solid foundation in front-end development and a keen interest
             in creating innovative software solutions. Explore my projects,
