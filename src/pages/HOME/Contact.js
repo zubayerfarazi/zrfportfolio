@@ -92,6 +92,7 @@ const Contact = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Enter Your Name"
+                required
                 className="bg-gray-800 dark:bg-gray-800 w-full border border-slate-700 rounded-xl py-4 pl-4 pr-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 tracking-widest text-sm md:text-lg capitalize"
               />
             </div>
@@ -110,6 +111,7 @@ const Contact = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter Your Email"
+                required
                 className="bg-gray-800 dark:bg-gray-800 w-full border border-slate-700 rounded-xl py-4 pl-4 pr-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 tracking-widest text-sm md:text-lg lowercase"
               />
             </div>
@@ -127,6 +129,7 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 placeholder="Enter Your Message"
+                required
                 className="bg-gray-800 dark:bg-gray-800 w-full border border-slate-700 rounded-xl py-4 pl-4 pr-10 shadow-sm focus:outline-none focus:border-sky-500 focus:ring-sky-500 focus:ring-1 tracking-widest text-sm md:text-lg"
               ></textarea>
               <Button type="submit" title={"Submit"}></Button>
