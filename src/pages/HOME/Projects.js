@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "../../components/SLIDER/Slider";
-import website from "../../assets/website.png"; // Ensure the image path is correct
-import TravelAgency from "../../assets/ACE.png"; // Add additional project images as needed
-import machine from "../../assets/machine.png"; // Add additional project images as needed
+import website from "../../assets/website.png"; 
+import TravelAgency from "../../assets/ACE.png";
+import machine from "../../assets/machine.png"; 
 
 const Projects = () => {
   const projectData = [
@@ -13,7 +13,7 @@ const Projects = () => {
       description:
         "Redesigned and enhanced the university website using HTML, CSS, Bootstrap, and PHP. Created an engaging frontend with sections for notices, news updates, and university facilities.",
       languages: "[HTML, CSS, JS, PHP]",
-      liveLink: "https://zndub.000webhostapp.com/",
+      liveLink: "#",
       githubLink: "https://github.com/zubayerfarazi/university-website",
       image: website,
     },
@@ -40,7 +40,6 @@ const Projects = () => {
         "https://github.com/zubayerfarazi/Crop-Recommendation-using-Machine-Learning",
       image: machine,
     },
-    // Add more projects as needed
   ];
 
   return (

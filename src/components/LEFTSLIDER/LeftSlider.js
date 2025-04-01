@@ -8,9 +8,9 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const LeftSlider = () => {
   return (
-    <div className="static sm:fixed left-0 bottom-0 px-2">
+    <div className="static md:fixed left-0 bottom-0 px-2">
       <div className="flex flex-col items-center">
-        <div className="flex flex-row pt-10 sm:flex-col gap-3">
+        <div className="flex flex-row pt-10 md:flex-col gap-3">
           <Link to="https://www.linkedin.com/in/zubayerfarazi" target="_blank">
             <FaLinkedin className="text-gray-600 text-2xl cursor-pointer hover:text-white" />
           </Link>
@@ -24,7 +24,7 @@ const LeftSlider = () => {
             <FaSquareXTwitter className="text-gray-600 text-2xl cursor-pointer hover:text-white" />
           </Link>
         </div>
-        <div className=" w-[1px] h-32 bg-[#125f63] hidden sm:block"></div>
+        <div className=" w-[1px] h-32 bg-[#125f63] hidden md:block"></div>
       </div>
     </div>
   );

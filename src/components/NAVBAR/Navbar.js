@@ -17,15 +17,15 @@ const Navbar = ({
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-gray-800 dark:bg-gray-800 shadow-md z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200 px-2 text-white">
+    <nav className="fixed top-0 left-0 right-0 bg-gray-800 dark:bg-gray-800 shadow-md z-50 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-sky-300 px-2 text-white">
       <div className="container flex mx-auto justify-between items-center p-4 hover:cursor-pointer animate__animated animate__slideInDown">
         <Link
           to={"/"}
-          className="text-4xl font-bold tracking-tighter hover:cursor-pointer active:text-sky-600 "
+          className="text-3xl font-bold tracking-tighter hover:cursor-pointer active:text-sky-600 "
         >
           ZRF.
         </Link>
-        <div className="space-x-12 text-2xl hidden md:flex ">
+        <div className="space-x-12 text-xl hidden md:flex ">
           <button onClick={scrollToIntro} className="hover:text-sky-600">
             Home
           </button>
@@ -42,7 +42,7 @@ const Navbar = ({
             Contact
           </button>
         </div>
-        <div className="space-x-8 text-xl">
+        <div className="space-x-8 text-lg">
           <button
             onClick={scrollToContact}
             className="hidden lg:inline-block border-2 px-4 py-2 rounded-md border-sky-600 transition-all ease-in-out delay-150 hover:bg-sky-600"

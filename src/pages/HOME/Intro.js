@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 
-import profile from "../../assets/profile-pic.png";
+import profile from "../../assets/zrf.png";
+import profile1 from "../../assets/zrf1.png";
 import CV1 from "../../assets/CV/ZRF CV.pdf";
 import CV2 from "../../assets/CV/Zubayer Farazi.pdf";
 import ProjectsInfo from "../../components/PROJECTSINFO/Projects";
@@ -25,18 +26,18 @@ const Intro = () => {
 
   return (
     <div>
-      <div className="pt-14 md:pt-20 px-5 md:px-10 text-center md:text-justify flex flex-col-reverse items-center justify-around md:flex-row space-y-10 md:space-y-0 md:space-x-10">
-        <div className="leading-10 py-10">
-          <h1 className="text-xl animate__animated animate__fadeInLeft text-white">
+      <div className="pt-10 md:pt-20 px-5 md:px-10 text-center md:text-justify flex flex-col-reverse items-center justify-around md:flex-row space-y-10 md:space-y-0 md:space-x-10">
+        <div className="leading-10 py-6">
+          <h1 className="text-xs md:text-xl animate__animated animate__fadeInLeft text-white">
             As-salamu Alaikum
           </h1>
-          <h1 className="text-3xl md:text-7xl animate__animated animate__fadeInLeft text-white">
+          <h1 className="text-2xl md:text-7xl animate__animated animate__fadeInLeft text-white">
             Hello, I'm
           </h1>
-          <h1 className="text-4xl md:text-8xl text-sky-600 font-bold animate__animated animate__fadeInLeft">
+          <h1 className="text-3xl md:text-8xl text-sky-600 font-bold animate__animated animate__fadeInLeft">
             Zubayer Farazi
           </h1>
-          <p className="text-lg max-w-2xl md:text-2xl pt-10 tracking-wide font-bona animate__animated animate__fadeInLeft text-white">
+          <p className="text-lg max-w-2xl md:text-xl pt-10 tracking-wide font-bona animate__animated animate__fadeInLeft text-white text-justify">
             Welcome to my portfolio! I'm a passionate computer science student
             with a solid foundation in front-end development and a keen interest
             in creating innovative software solutions. Explore my projects,
@@ -47,7 +48,7 @@ const Intro = () => {
           <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-0 md:space-x-10 items-center pt-10 animate__animated animate__zoomIn">
             <button
               onClick={openModal}
-              className="border-2 px-4 py-2 rounded-md border-sky-600 hover:bg-sky-600 hover:text-white transition-all ease-in-out delay-150 flex items-center gap-2 uppercase tracking-wider text-sky-600"
+              className="border-2 px-4 py-2 rounded-md border-sky-600 hover:bg-sky-600 hover:text-white transition-all ease-in-out delay-150 flex items-center gap-2 uppercase tracking-wider text-white"
             >
               Download CV
               <span>
@@ -89,7 +90,12 @@ const Intro = () => {
         <img
           src={profile}
           alt="Profile"
-          className="rounded-full w-48 md:w-64 lg:w-80 animate__animated animate__fadeInRight"
+          className="hidden md:block h-96 w-96 animate__animated animate__fadeInRight"
+        />
+        <img
+          src={profile1}
+          alt="Profile"
+          className="md:hidden block rounded-full h-48 w-48 border border-sky-600 animate__animated animate__fadeInRight"
         />
       </div>
       <ProjectsInfo></ProjectsInfo>
@@ -112,7 +118,7 @@ const Intro = () => {
           >
             <span>CV 1</span>
             <span>
-              <MdOutlineFileDownload className="text-xl"></MdOutlineFileDownload>
+              <MdOutlineFileDownload cssName="text-xl"></MdOutlineFileDownload>
             </span>
           </a>
           <a

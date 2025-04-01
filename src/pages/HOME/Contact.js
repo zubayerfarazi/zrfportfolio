@@ -50,27 +50,27 @@ const Contact = () => {
 
       <div className=" lg:flex justify-around pt-10 ">
         <div className="text-white">
-          <h1 className="text-2xl md:text-4xl font-bold pb-2 lg:pb-8 px-10 lg:px-0 ">
+          <h1 className="text-2xl md:text-3xl font-bold pb-2 lg:pb-8 px-10 lg:px-0 ">
             Let's Talk
           </h1>
-          <p className="lg:max-w-xl text-sm md:text-2xl pb-8 leading-relaxed text-justify px-10 lg:px-0">
+          <p className="lg:max-w-xl text-sm md:text-xl pb-8 leading-relaxed text-justify px-10 lg:px-0">
             I'm Currently available to take on new projects, so feel free to
             send me a message about anything that you want to me work on. You
             can Contact me anytime.
           </p>
-          <div className="flex items-center space-x-6 pb-5 text-sm md:text-2xl px-10 lg:px-0">
+          <div className="flex items-center space-x-6 pb-5 text-sm md:text-xl px-10 lg:px-0">
             <IoMail />
             <Link to="mailto:forazizubayer@gmail.com">
               forazizubayer@gmail.com
             </Link>
           </div>
-          <div className="flex items-center space-x-6 pb-5 text-sm md:text-2xl px-10 lg:px-0">
+          <div className="flex items-center space-x-6 pb-5 text-sm md:text-xl px-10 lg:px-0">
             <FaPhoneAlt />
             <Link to="tel:01646745401" className="font-mono">
               01646745401
             </Link>
           </div>
-          <div className="flex items-center space-x-6 text-sm md:text-2xl px-10 lg:px-0">
+          <div className="flex items-center space-x-6 text-sm md:text-xl px-10 lg:px-0">
             <FaLocationDot />
             <Link to="#">Motijheel, Dhaka</Link>
           </div>

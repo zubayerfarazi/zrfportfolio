@@ -29,33 +29,33 @@ const Slider = ({ projectData }) => {
     <div className="flex-row md:flex justify-around items-center">
       <div className="text-2xl space-y-2 md:space-y-4">
         <div className="flex items-center justify-between">
-          <h2 className="text-8xl text-white">{currentProject.number}</h2>
+          <h2 className="text-5xl text-white">{currentProject.number}</h2>
           <div className="flex items-center gap-10 bg-white dark:bg-gray-900 p-3 rounded-full md:hidden">
             <TbPlayerTrackPrevFilled onClick={prevProject} />
             <TbPlayerTrackNextFilled onClick={nextProject} />
           </div>
         </div>
-        <h2 className="text-lg pt-4 md:pt-0 md:text-2xl lg:text-4xl font-bold tracking-wider text-sky-600">
+        <h2 className="text-lg pt-4 md:pt-0 md:text-2xl font-bold tracking-wider text-sky-600">
           {currentProject.title}
         </h2>
-        <p className="max-w-2xl text-sm text-white md:text-xl lg:text-2xl text-justify leading-relaxed">
+        <p className="max-w-2xl text-sm text-white md:text-xl text-justify leading-relaxed">
           {currentProject.description}
         </p>
-        <h4 className="pb-5 text-sm md:text-2xl tracking-wider text-sky-600">
+        <h4 className="pb-5 text-sm md:text-xl tracking-wider text-sky-600">
           {currentProject.languages}
         </h4>
-        <div className="flex items-center justify-center md:justify-start gap-20 md:gap-40 text-xl md:text-4xl">
+        <div className="flex items-center justify-center md:justify-start gap-20 md:gap-40 text-xl md:text-2xl">
           <Link
             to={currentProject.liveLink}
             target="_blank"
-            className="bg-gray-900 dark:bg-gray-900 p-6 rounded-full hover:bg-gray-700"
+            className="bg-gray-900 dark:bg-gray-900 p-4 rounded-full hover:bg-gray-700"
           >
             <FaArrowUpRightFromSquare className="text-white" />
           </Link>
           <Link
             to={currentProject.githubLink}
             target="_blank"
-            className="bg-gray-900 dark:bg-gray-900 p-6 rounded-full hover:bg-gray-700"
+            className="bg-gray-900 dark:bg-gray-900 p-4 rounded-full hover:bg-gray-700"
           >
             <BsGithub className="text-white" />
           </Link>
@@ -65,7 +65,7 @@ const Slider = ({ projectData }) => {
         <img
           src={currentProject.image}
           alt=""
-          className="w-[500px] mx-auto rounded-2xl pb-5 md:w-[500px]"
+          className="w-[400px] mx-auto rounded-2xl pb-5"
         />
         <div className="hidden md:flex justify-between bg-white dark:bg-gray-900 p-6 rounded-full text-2xl cursor-pointer">
           <TbPlayerTrackPrevFilled onClick={prevProject} />
