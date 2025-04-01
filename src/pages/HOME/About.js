@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 // import aboutImage from "../../assets/profile-pic (3).png";
 import aboutImage from "../../assets/zrf1.png";
 
 const About = () => {
-  const [visibleSection, setVisibleSection] = useState("education");
 
   return (
     <div className="w-full bg-gray-800 dark:bg-gray-800 text-black dark:text-white pt-10 pb-10">
