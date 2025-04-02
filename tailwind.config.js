@@ -8,6 +8,7 @@ module.exports = {
         playwrite: ['"Playwrite FR Trad"', "serif"],
         poppins: ['""Poppins""', "serif"],
         bona: ['"Bitter"', "serif"],
+        lora: ['"Lora"', "serif"],
       },
     },
   },

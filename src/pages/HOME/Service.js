@@ -11,13 +11,13 @@ import graphics from "../../assets/graphics.png";
 const Service = () => {
   return (
     <div className="w-full bg-gray-900 dark:bg-gray-900 text-black dark:text-white pt-10 pb-10">
-      <h1 className="text-center tracking-widest text-white">
+      <h1 className="text-center tracking-widest text-sky-200">
         Explore my Services
       </h1>
       <h1 className="text-3xl md:text-5xl font-bold text-center pb-5 text-white">
         My Services
       </h1>
-      <p className="py-4 px-10 text-sm md:text-lg text-justify md:px-10 xl:text-center text-white">
+      <p className="py-2 px-10 text-sm md:text-lg text-justify md:px-10 2xl:text-center text-white">
         I offer a range of services to help you achieve your digital goals. From
         web development to technical support, I provide high-quality solutions
         tailored to your needs. Explore the service below to see how I can

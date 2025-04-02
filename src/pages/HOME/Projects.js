@@ -44,7 +44,7 @@ const Projects = () => {
 
   return (
     <div className="bg-gray-800 dark:bg-gray-800 text-black dark:text-white p-10">
-      <h1 className="text-center tracking-widest text-white">
+      <h1 className="text-center tracking-widest text-sky-200">
         Explore Recent Projects
       </h1>
       <h1 className="text-3xl md:text-5xl text-white font-bold text-center pb-4 md:pb-0">

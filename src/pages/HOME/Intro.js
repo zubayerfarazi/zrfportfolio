@@ -28,7 +28,7 @@ const Intro = () => {
     <div>
       <div className="pt-10 md:pt-20 px-5 md:px-10 text-center md:text-justify flex flex-col-reverse items-center justify-around md:flex-row space-y-10 md:space-y-0 md:space-x-10">
         <div className="leading-10 py-6">
-          <h1 className="text-xs md:text-xl animate__animated animate__fadeInLeft text-white">
+          <h1 className="text-xs md:text-xl font-bona animate__animated animate__fadeInLeft text-white">
             As-salamu Alaikum
           </h1>
           <h1 className="text-2xl md:text-7xl animate__animated animate__fadeInLeft text-white">
@@ -37,7 +37,7 @@ const Intro = () => {
           <h1 className="text-3xl md:text-8xl text-sky-600 font-bold animate__animated animate__fadeInLeft">
             Zubayer Farazi
           </h1>
-          <p className="text-lg max-w-2xl md:text-xl pt-10 tracking-wide font-bona animate__animated animate__fadeInLeft text-white text-justify">
+          <p className="text-lg max-w-2xl md:text-xl pt-8 tracking-wide font-lora animate__animated animate__fadeInLeft text-white text-justify">
             Welcome to my portfolio! I'm a passionate computer science student
             with a solid foundation in front-end development and a keen interest
             in creating innovative software solutions. Explore my projects,
@@ -70,13 +70,13 @@ const Intro = () => {
               >
                 <FaLinkedin />
               </Link>
-              <Link
+              {/* <Link
                 to="https://www.facebook.com/zubayer.forazi"
                 target="_blank"
                 className="text-black dark:text-white text-4xl hover:text-gray-600"
               >
                 <FaFacebook />
-              </Link>
+              </Link> */}
               <Link
                 to="https://x.com/FaraziZubayer"
                 target="_blank"

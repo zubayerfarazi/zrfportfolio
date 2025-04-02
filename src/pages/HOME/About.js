@@ -18,7 +18,7 @@ const About = () => {
           <h1 className="text-white text-3xl md:text-5xl font-bold text-center md:text-center xl:text-left animate__animated animate__fadeInRight">
             About Me
           </h1>
-          <h1 className="py-2 text-white text-normal text-center md:text-center xl:text-left animate__animated animate__fadeInRight">
+          <h1 className="text-sky-200 text-normal font-lora italic text-center md:text-center xl:text-left animate__animated animate__fadeInRight">
             Developer and Designer
           </h1>
           <p className="py-4 text-sm md:text-xl text-white animate__animated animate__fadeInRight">
@@ -153,7 +153,7 @@ const About = () => {
             </div>
           </div> */}
           {/* small device heading */}
-
+{/* skills */}
           <div className="bg-gray-900 dark:bg-gray-900 rounded-lg">
             <h1 className="text-2xl text-center p-3 text-white">Skills</h1>
             <ul className=" flex flex-wrap justify-around gap-2">
@@ -200,18 +200,18 @@ const About = () => {
                       href="https://qligence.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="text-lg font-bold text-white mt-1 font-mono hover:text-sky-300 transition-all ease-in-out duration-300"
+                      className="text-lg font-bold text-white mt-1 font-lora hover:text-sky-300 transition-all ease-in-out duration-300"
                     >
                       Qligence Limited
                     </a>
 
                     {/* Job Title */}
-                    <p className="text-xs text-gray-300 font-mono cursor-pointer hover:text-sky-300 transition-all ease-in-out duration-300">
+                    <p className="text-xs text-gray-300 font-lora cursor-pointer hover:text-sky-300 transition-all ease-in-out duration-300">
                       Junior Software Engineer
                     </p>
 
                     {/* Description */}
-                    <p className="text-sm mt-4 font-mono">
+                    <p className="text-sm mt-4 font-lora">
                       Crafting efficient and scalable software solutions while
                       collaborating with cross-functional teams. Focused on
                       clean code, best practices, and continuous learning.
@@ -227,12 +227,12 @@ const About = () => {
                     </p>
 
                     {/* Internship Role */}
-                    <p className="text-lg font-bold text-white mt-1 font-mono hover:text-sky-300 transition-all ease-in-out duration-300">
+                    <p className="text-lg font-bold text-white mt-1 font-lora hover:text-sky-300 transition-all ease-in-out duration-300">
                       Software Development Intern
                     </p>
 
                     {/* Description */}
-                    <p className="text-sm mt-4 font-mono">
+                    <p className="text-sm mt-4 font-lora">
                       Gained hands-on experience in software development,
                       working on real-world projects, improving coding
                       efficiency, and collaborating with teams.
@@ -254,17 +254,17 @@ const About = () => {
                     </p>
 
                     {/* University Name */}
-                    <p className="text-lg font-bold font-mono text-white mt-1">
+                    <p className="text-lg font-bold font-lora text-white mt-1">
                       BSc in CSE
                     </p>
 
                     {/* Institution */}
-                    <p className="text-sm font-mono text-gray-300">
+                    <p className="text-sm font-lora text-gray-300">
                       Notre Dame University Bangladesh
                     </p>
 
                     {/* Description */}
-                    <p className="text-sm mt-4 font-mono">
+                    <p className="text-sm mt-4 font-lora">
                       Focused on software development, algorithms, and
                       cybersecurity. Engaged in projects that enhanced
                       problem-solving and technical skills.
