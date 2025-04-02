@@ -12,7 +12,7 @@ const Footer = () => {
         <span className="text-sky-600">Farazi</span>
       </h1> */}
       <LeftSlider></LeftSlider>
-      <p className="text-center py-2 text-xs">Copyright @2025 | All rights reserved.</p>
+      <p className="text-center py-2 text-[10px] font-sans">Copyright @2025 | All rights reserved.</p>
     </div>
   );
 };
