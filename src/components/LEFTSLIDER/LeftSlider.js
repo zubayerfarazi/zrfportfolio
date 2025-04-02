@@ -14,9 +14,9 @@ const LeftSlider = () => {
           <Link to="https://www.linkedin.com/in/zubayerfarazi" target="_blank">
             <FaLinkedin className="text-gray-600 text-2xl cursor-pointer hover:text-white" />
           </Link>
-          <Link to="https://www.facebook.com/zubayer.forazi" target="_blank">
+          {/* <Link to="https://www.facebook.com/zubayer.forazi" target="_blank">
             <FaFacebook className="text-gray-600 text-2xl cursor-pointer hover:text-white" />
-          </Link>
+          </Link> */}
           <Link to="https://github.com/zubayerfarazi" target="_blank">
             <FaGithubSquare className="text-gray-600 text-2xl cursor-pointer hover:text-white" />
           </Link>

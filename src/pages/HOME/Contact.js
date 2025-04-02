@@ -43,7 +43,7 @@ const Contact = () => {
 
   return (
     <div className="w-full bg-gray-900 dark:bg-gray-900 text-black dark:text-white pt-10 pb-10">
-      <h1 className="text-center tracking-widest text-white">Get in Touch</h1>
+      <h1 className="text-center tracking-widest text-sky-200">Get in Touch</h1>
       <h1 className="text-3xl md:text-5xl font-bold text-center text-white">
         Contact Me
       </h1>
