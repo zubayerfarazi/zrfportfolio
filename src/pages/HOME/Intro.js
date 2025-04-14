@@ -15,6 +15,7 @@ Modal.setAppElement("#root");
 
 const Intro = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
 
   const openModal = () => {
     setModalIsOpen(true);
@@ -87,11 +88,28 @@ const Intro = () => {
             </div>
           </div>
         </div>
-        <img
-          src={profile}
-          alt="Profile"
-          className="hidden md:block h-96 w-96 animate__animated animate__fadeInRight"
-        />
+        <div
+          className="hidden md:block relative h-96 w-96 overflow-hidden"
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+        >
+          {/* First Image */}
+          <img
+            src={profile}
+            alt="Profile"
+            className={`absolute top-0 left-0 w-full h-full transition-all duration-500 
+      ${isHovered ? "hidden" : "animate__animated animate__zoomIn"}`}
+          />
+
+          {/* Second Image */}
+          <img
+            src={profile1}
+            alt="Second"
+            className={`absolute top-0 left-0 w-full h-full transition-all duration-500 
+      ${isHovered ? "animate__animated animate__zoomIn" : "hidden"}`}
+          />
+        </div>
+
         <img
           src={profile1}
           alt="Profile"

@@ -3,7 +3,6 @@ import React from "react";
 import aboutImage from "../../assets/zrf1.png";
 
 const About = () => {
-
   return (
     <div className="w-full bg-gray-800 dark:bg-gray-800 text-black dark:text-white pt-10 pb-10">
       <div className="flex flex-col md:flex-row justify-around items-center px-5 md:px-10 space-y-2 md:space-y-0 md:space-x-10">

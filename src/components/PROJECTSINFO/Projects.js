@@ -15,12 +15,12 @@ const ProjectsInfo = () => {
           Projects <br /> completed
         </p>
       </div>
-      <div className="flex flex-row gap-3 items-center">
+      {/* <div className="flex flex-row gap-3 items-center">
         <h1 className="text-6xl font-mono font-bold">8</h1>
         <p className="text-sm md:text-xl">
           Technologies <br /> mastered
         </p>
-      </div>
+      </div> */}
       <div className="flex flex-row gap-3 items-center">
         <h1 className="text-6xl font-mono font-bold">12</h1>
         <p className="text-sm md:text-xl">
