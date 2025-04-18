@@ -10,7 +10,6 @@ import CV1 from "../../assets/CV/ZRF CV.pdf";
 import CV2 from "../../assets/CV/Zubayer Farazi.pdf";
 import ProjectsInfo from "../../components/PROJECTSINFO/Projects";
 
-// Set the app element for accessibility purposes
 Modal.setAppElement("#root");
 
 const Intro = () => {
@@ -60,14 +59,14 @@ const Intro = () => {
               <Link
                 to="https://github.com/zubayerfarazi"
                 target="_blank"
-                className="text-black dark:text-white text-4xl hover:text-gray-600"
+                className="text-white text-4xl hover:text-gray-600"
               >
                 <FaGithub />
               </Link>
               <Link
                 to="https://www.linkedin.com/in/zubayerfarazi"
                 target="_blank"
-                className="text-black dark:text-white text-4xl hover:text-gray-600"
+                className="text-white text-4xl hover:text-gray-600"
               >
                 <FaLinkedin />
               </Link>
@@ -81,7 +80,7 @@ const Intro = () => {
               <Link
                 to="https://x.com/FaraziZubayer"
                 target="_blank"
-                className="text-black dark:text-white text-4xl hover:text-gray-600"
+                className="text-white dark:text-white text-4xl hover:text-gray-600"
               >
                 <FaTwitter />
               </Link>
